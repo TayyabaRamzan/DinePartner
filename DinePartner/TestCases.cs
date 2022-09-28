@@ -51,7 +51,7 @@ namespace DinePartner
 
             ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
         }
-
+          
         [TestMethod]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupbuttonclickable", DataAccessMethod.Sequential)]
         public void FYP_T2_SignupforValid()
