@@ -23,18 +23,19 @@ namespace DinePartner
 
         public void closebrowser()
         {
+            wait();
             driver.Close();
         }
 
         public void OpenURL()
         {
-            driver.Navigate().GoToUrl("https://dinepartner.com/guest/login");
+            driver.Navigate().GoToUrl("https://dinepartner.com/");
             driver.Manage().Window.Maximize();
 
         }
         public void wait()
         {
-            driver.Manage().Timeouts().ImplicitWait =TimeSpan.FromSeconds(2500);
+            driver.Manage().Timeouts().ImplicitWait =TimeSpan.FromSeconds(1000);
         }
 
     }

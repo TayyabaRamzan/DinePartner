@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Signin.cs" />
     <Compile Include="Signup.cs" />
     <Compile Include="TestCases.cs" />
     <Compile Include="UnitTest1.cs" />
