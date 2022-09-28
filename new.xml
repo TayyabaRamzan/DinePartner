@@ -9,8 +9,6 @@
 			<city>Lahore</city>
 			<password>tayyaba@123</password>		
 			<confirmpassword>tayyaba@123</confirmpassword>	
-		</signupforvalid>		
-
-		
+		</signupforvalid>			
 	</Execution>
 </DinePartner>
