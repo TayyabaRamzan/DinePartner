@@ -33,31 +33,28 @@ namespace DinePartner
             closebrowser();
         }
 
-        
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "DinepartnerData.xml", "signupforvalid", DataAccessMethod.Sequential)]
-        public void FYP_T2_SignupforValid()
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupforvalid", DataAccessMethod.Sequential)]
+        public void FYP_T1_SignupButtonClickable()
         {
 
             signupFunctionality ss = new signupFunctionality(driver);
-           
+
             string firstname = TestContext.DataRow["firstname"].ToString();
-            string lastname = TestContext.DataRow["lastname"].ToString();
+            string lastname = TestContext.DataRow["lastname"].ToString(); 
             string email = TestContext.DataRow["email"].ToString();
             string phone = TestContext.DataRow["phone"].ToString();
             string city = TestContext.DataRow["city"].ToString();
             string password = TestContext.DataRow["password"].ToString();
             string confirmpassword = TestContext.DataRow["confirmpassword"].ToString();
-           
-            ss.signup(firstname,lastname,email,phone,city,password,confirmpassword);
+
+            ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
         }
 
-
-
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "DinepartnerData.xml", "signupforvalid", DataAccessMethod.Sequential)]
-        public void FYP_T2_SignupButtonClickable()
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupbuttonclickable", DataAccessMethod.Sequential)]
+        public void FYP_T2_SignupforValid()
         {
 
             signupFunctionality ss = new signupFunctionality(driver);
@@ -72,6 +69,9 @@ namespace DinePartner
 
             ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
         }
+
+
+
 
     }
 }
