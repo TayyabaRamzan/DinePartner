@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DinePartner>
+	<Execution>			
+		<signupforvalid>
+			<firstname>Tayyaba</firstname>
+			<lastname>Ramzan</lastname>
+			<email>tayyabaramzan1516@gmail.com</email>
+			<phone>03056542331</phone>		
+			<city>Lahore</city>
+			<password>tayyaba@123</password>		
+			<confirmpassword>tayyaba@123</confirmpassword>	
+		</signupforvalid>			
+	</Execution>
+</DinePartner>
