@@ -136,7 +136,7 @@ namespace DinePartner
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinincorre", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinincorrectemail", DataAccessMethod.Sequential)]
         public void FYP_T7_signinwithIncorrectEmail()
         {
 
@@ -150,7 +150,7 @@ namespace DinePartner
 
         [TestMethod]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinbutton", DataAccessMethod.Sequential)]
-        public void FYP_T9_validateSigninbutton()
+        public void FYP_T9_Signinbutton()
         {
 
             Signin obj = new Signin(driver);
@@ -160,8 +160,19 @@ namespace DinePartner
 
             obj.signin(email, password);
         }
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinincorrectpass", DataAccessMethod.Sequential)]
+        public void FYP_T8_signinwithIncorrectpass()
+        {
 
-       
-       
+            Signin obj = new Signin(driver);
+
+            string email = TestContext.DataRow["email"].ToString();
+            string password = TestContext.DataRow["password"].ToString();
+
+            obj.signin(email, password);
+        }
+
+
     }
 }
