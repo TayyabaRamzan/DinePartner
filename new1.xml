@@ -53,6 +53,14 @@
 		<signinvalid>
 			<email>tayyabaramzan1516@gmail.com</email>
 			<password>tayyaba@123</password>
-		</signinvalid>				
+		</signinvalid>	
+		<signinincorrectemail>
+			<email>tayyabaramzan1516@@gmail.com</email>
+			<password>tayyaba@123</password>
+		</signinincorrectemail>	
+		<signinincorrectpass>
+			<email>tayyabaramzan1516@gmail.com</email>
+			<password>tayyaba@12345</password>
+		</signinincorrectpass>	
 	</Execution>
 </DinePartner>
