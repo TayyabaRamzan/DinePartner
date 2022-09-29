@@ -30,12 +30,12 @@ namespace DinePartner
         public void Testclean()
         {
 
-            closebrowser();
+            QuitBrowser();
         }
 
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupforvalid", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupforvalid", DataAccessMethod.Sequential)]
         public void FYP_T1_SignupButtonClickable()
         {
 
@@ -53,7 +53,7 @@ namespace DinePartner
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupbuttonclickable", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupbuttonclickable", DataAccessMethod.Sequential)]
         public void FYP_T2_SignupforValid()
         {
 
@@ -71,7 +71,7 @@ namespace DinePartner
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupwithincorrectemail", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithincorrectemail", DataAccessMethod.Sequential)]
         public void FYP_T3_Signupwithincorrectemail()
         {
 
@@ -88,7 +88,7 @@ namespace DinePartner
             ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
         }
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupwithregister", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithregister", DataAccessMethod.Sequential)]
         public void FYP_T4_Signupwithregisteruser()
         {
 
@@ -105,7 +105,7 @@ namespace DinePartner
             ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
         }
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signupwithoutconfirmpassword", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithoutconfirmpassword", DataAccessMethod.Sequential)]
         public void FYP_T5_signupwithoutconfirmpassword()
         {
 
@@ -123,7 +123,7 @@ namespace DinePartner
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinvalid", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signinvalid", DataAccessMethod.Sequential)]
         public void FYP_T6_signinforValid()
         {
 
@@ -136,7 +136,7 @@ namespace DinePartner
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinincorrectemail", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signinincorrectemail", DataAccessMethod.Sequential)]
         public void FYP_T7_signinwithIncorrectEmail()
         {
 
@@ -149,7 +149,7 @@ namespace DinePartner
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinbutton", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signinbutton", DataAccessMethod.Sequential)]
         public void FYP_T9_Signinbutton()
         {
 
@@ -161,7 +161,7 @@ namespace DinePartner
             obj.signin(email, password);
         }
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "new1.xml", "signinincorrectpass", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signinincorrectpass", DataAccessMethod.Sequential)]
         public void FYP_T8_signinwithIncorrectpass()
         {
 
@@ -172,7 +172,26 @@ namespace DinePartner
 
             obj.signin(email, password);
         }
+        [TestMethod]
 
+
+        public void FYP_T10_SearchiconClickable()
+        {
+
+            FindYourTable obj = new FindYourTable(driver);
+
+            obj.searchbutton();
+        }
+
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "findtable", DataAccessMethod.Sequential)]
+        public void Fyp_T11_findtableusingRestaurantName()
+        {
+
+            FindYourTable obj = new FindYourTable(driver);
+            string Rest_name = TestContext.DataRow["Rname"].ToString();
+            obj.Findtable(Rest_name);
+        }
 
     }
 }

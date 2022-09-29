@@ -85,10 +85,7 @@ namespace DinePartner
 
         }
         #endregion
-
-       
-
-        
+   
         #region signUP     
         public void signup(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {

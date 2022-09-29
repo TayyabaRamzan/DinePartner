@@ -26,7 +26,11 @@ namespace DinePartner
             wait();
             driver.Close();
         }
-
+        public void QuitBrowser()
+        {
+            wait();
+            driver.Quit();
+        }
         public void OpenURL()
         {
             driver.Navigate().GoToUrl("https://dinepartner.com/");
