@@ -86,24 +86,9 @@ namespace DinePartner
         }
         #endregion
 
-        #region operation_methods
-        IWebElement findElement(By locator)
-        {
-            return driver.FindElement(locator);
-        }
-        #endregion
+       
 
-        #region
-        void typetext(By locator, string text)
-        {
-            IWebElement element = findElement(locator);
-            element.SendKeys(text);
-        }
-        void click(By locator)
-        {
-            findElement(locator).Click();
-        }
-        #endregion
+        
         #region signUP     
         public void signup(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {

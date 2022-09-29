@@ -37,6 +37,23 @@ namespace DinePartner
         {
             driver.Manage().Timeouts().ImplicitWait =TimeSpan.FromSeconds(1000);
         }
+       
+        public IWebElement findElement(By locator)
+        {
+            return driver.FindElement(locator);
+        }
+        
+        public void click(By locator)
+        {
+            findElement(locator).Click();
+        }
+       
+        public void typetext(By locator, string text)
+        {
+            IWebElement element = findElement(locator);
+            element.SendKeys(text);
+        }
 
+       
     }
 }

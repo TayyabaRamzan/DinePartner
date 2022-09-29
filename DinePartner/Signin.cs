@@ -23,12 +23,12 @@ namespace DinePartner
 
         void EnterEmail(string Einput)
         {
-            entertext(enterEmail, Einput);
+            typetext(enterEmail, Einput);
         }
 
         void EnterPass(string Pinput)
         {
-            entertext(enterPassword, Pinput);
+            typetext(enterPassword, Pinput);
         }
 
         void clickSignin()
@@ -43,21 +43,7 @@ namespace DinePartner
             click(guest);
 
         }
-        void entertext(By locator, string text)
-        {
-            IWebElement element = findElement(locator);
-            element.SendKeys(text);
-        }
-
-
-        IWebElement findElement(By locator)
-        {
-            return driver.FindElement(locator);
-        }
-        void click(By locator)
-        {
-            findElement(locator).Click();
-        }
+       
         #endregion
 
         #region
