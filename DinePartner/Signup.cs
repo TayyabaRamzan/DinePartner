@@ -23,6 +23,7 @@ namespace DinePartner
         By confirmPassword = By.XPath("//input[@class='fpass' and @name='confirm_password']");
         By agreeCheckbox = By.Id("agree");
         By submit = By.Name("signup_submit");
+        By scrlelement = By.XPath("//h5[@class='bold white footer-header']");
 
         public signupFunctionality(IWebDriver driver)
         {
@@ -92,7 +93,7 @@ namespace DinePartner
             inputemail(Email);
             inputPhonenumber(PhoneNo);
             inputCity(City);
-            scroll();
+            scroll(scrlelement);
             inputPassword(pass);
             inputConfirmPass(Confirmpassword);
             clickcheckbox();

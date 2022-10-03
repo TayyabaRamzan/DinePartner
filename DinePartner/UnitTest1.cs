@@ -55,15 +55,20 @@ namespace DinePartner
         public void Clear(By locator)
         {
 
-            driver.FindElement(locator).Clear();
+            findElement(locator).Clear();
 
         }
-        public void scroll()
+        public void scroll(By locator)
         {
-            var element1 = driver.FindElement(By.XPath("//h5[@class='bold white footer-header']"));
-            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", element1);
+            IWebElement element = findElement(locator);
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", element);
         }
+        public void MovetoNewTab()
+        {
 
+            driver.SwitchTo().Window(driver.WindowHandles[1]);
+
+        }
         //public void radioclick(By locator)
         //{
         //    findElement(locator).Click();

@@ -14,6 +14,8 @@ namespace DinePartner
         By table = By.XPath("//div//button[@class='btn btn-full btnnfindtable']");
         By cuisine = By.Name("cuisines[]");
         By BBQ = By.XPath("//li//div//div//label//input[@value='LIve BBQ']");
+        By FiveStar = By.XPath("//div//label//input[@name='ratings' and @value='5']");
+        By scrlelement = By.XPath("//*[@id='myNav']/ul/aside/form/ul/li[16]/div[1]/label/input");
         public Filters(IWebDriver driver)
         {
             this.driver = driver;
@@ -38,7 +40,7 @@ namespace DinePartner
         }
         void click5Star()
         {
-            click(BBQ);
+            click(FiveStar);
         }
 
         public void ApplyFilters1()
@@ -64,6 +66,7 @@ namespace DinePartner
             OpenURL();
             click(table);
             selectIslamabad();
+            //scroll(scrlelement);
             click5Star();
             clickApplybutton();
             Thread.Sleep(6000);

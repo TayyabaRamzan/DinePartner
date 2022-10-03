@@ -29,7 +29,7 @@ namespace DinePartner
 
         public void Testclean()
         {
-
+            //closebrowser();
             QuitBrowser();
         }
 
@@ -216,6 +216,52 @@ namespace DinePartner
 
             obj.ApplyFilters3();
         }
+        [TestMethod]
+        public void FYP_T15_RecommendIsClickable()
+        {
 
+            RecommendRestaurant obj = new RecommendRestaurant(driver);
+
+            obj.Recommendbutton(); 
+        }
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "EmailMandatory", DataAccessMethod.Sequential)]
+        public void FYP_T16_EmailForMandatory()
+        { 
+
+            RecommendRestaurant obj = new RecommendRestaurant(driver);
+            string Myname = TestContext.DataRow["name"].ToString();
+            string MyEmail = TestContext.DataRow["email"].ToString();
+            string MyRestaurant = TestContext.DataRow["restaurant"].ToString();
+            obj.emailismandatory(Myname, MyEmail, MyRestaurant);
+        } 
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "NameMandatory", DataAccessMethod.Sequential)]
+        public void FYP_T17_NameForMandatory()
+        {
+
+            RecommendRestaurant obj = new RecommendRestaurant(driver);
+            string Myname = TestContext.DataRow["name"].ToString();
+            string MyEmail = TestContext.DataRow["email"].ToString();
+            string MyRestaurant = TestContext.DataRow["restaurant"].ToString();
+            obj.emailismandatory(Myname, MyEmail, MyRestaurant);
+        }
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "RestaurantMandatory", DataAccessMethod.Sequential)]
+        public void FYP_T18_RestaurantForMandatory()
+        {
+
+            RecommendRestaurant obj = new RecommendRestaurant(driver);
+            string Myname = TestContext.DataRow["name"].ToString();
+            string MyEmail = TestContext.DataRow["email"].ToString();
+            string MyRestaurant = TestContext.DataRow["restaurant"].ToString();
+            obj.emailismandatory(Myname, MyEmail, MyRestaurant);
+        }
+        [TestMethod]
+        public void FYP_T19_SendIsClickable()
+        {
+            RecommendRestaurant obj = new RecommendRestaurant(driver);
+            obj.sendbuttonclick();
+        }
     }
 }
