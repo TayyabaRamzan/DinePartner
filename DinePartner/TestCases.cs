@@ -193,12 +193,29 @@ namespace DinePartner
             obj.Findtable(Rest_name);
         }
         [TestMethod]
-        public void FYP_T12_searchIslcityrestaurants()
+        public void FYP_T12_searchIslrestaurants()
         {
 
             Filters obj = new Filters(driver);
 
-            obj.ApplyFilter();
+            obj.ApplyFilters1();
         }
+        [TestMethod]
+        public void FYP_T13_searchContinentalCuisinewithLiveBBQ()
+        {
+
+            Filters obj = new Filters(driver);
+
+            obj.ApplyFilters2();
+        }
+        [TestMethod]
+        public void FYP_T14_search5StarISlRestaurant()
+        {
+
+            Filters obj = new Filters(driver);
+
+            obj.ApplyFilters3();
+        }
+
     }
 }

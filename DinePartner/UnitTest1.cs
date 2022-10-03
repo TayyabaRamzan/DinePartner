@@ -44,6 +44,7 @@ namespace DinePartner
        
         public IWebElement findElement(By locator)
         {
+
             return driver.FindElement(locator);
         }
         
@@ -51,6 +52,18 @@ namespace DinePartner
         {
             findElement(locator).Click();
         }
+        public void Clear(By locator)
+        {
+
+            driver.FindElement(locator).Clear();
+
+        }
+        public void scroll()
+        {
+            var element1 = driver.FindElement(By.XPath("//h5[@class='bold white footer-header']"));
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", element1);
+        }
+
         //public void radioclick(By locator)
         //{
         //    findElement(locator).Click();

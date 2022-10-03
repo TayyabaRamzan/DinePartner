@@ -60,11 +60,7 @@ namespace DinePartner
             typetext(city, Cinput);
         }
 
-        void scroll()
-        {
-            var element1 = driver.FindElement(By.XPath("//h5[@class='bold white footer-header']"));
-            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", element1);
-        }
+       
         void inputPassword(string Pinput)
         {
             typetext(password, Pinput);
@@ -90,7 +86,7 @@ namespace DinePartner
         public void signup(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {
             OpenURL();
-            guesttclick();
+            guesttclick();  
             inputFirstname(Firstname);
             inputLastname(Lastname);
             inputemail(Email);
