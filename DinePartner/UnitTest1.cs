@@ -14,7 +14,7 @@ namespace DinePartner
     public class CommonMethods
     {
         public IWebDriver driver;
-        //Actions actions;
+        Actions actions;
 
         public void startBrowser()
         {
@@ -51,7 +51,11 @@ namespace DinePartner
         {
             findElement(locator).Click();
         }
-       
+        //public void radioclick(By locator)
+        //{
+        //    findElement(locator).Click();
+        //}
+
         public void typetext(By locator, string text)
         {
             IWebElement element = findElement(locator);

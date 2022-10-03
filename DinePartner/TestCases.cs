@@ -192,6 +192,13 @@ namespace DinePartner
             string Rest_name = TestContext.DataRow["Rname"].ToString();
             obj.Findtable(Rest_name);
         }
+        [TestMethod]
+        public void FYP_T12_searchIslcityrestaurants()
+        {
 
+            Filters obj = new Filters(driver);
+
+            obj.ApplyFilter();
+        }
     }
 }

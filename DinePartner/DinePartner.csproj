@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filters.cs" />
     <Compile Include="FindYourTable.cs" />
     <Compile Include="Signin.cs" />
     <Compile Include="Signup.cs" />
