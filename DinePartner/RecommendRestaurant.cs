@@ -76,9 +76,5 @@ namespace DinePartner
             clickSend();
             Thread.Sleep(6000);
         }
-
-
-
-
     }
 }

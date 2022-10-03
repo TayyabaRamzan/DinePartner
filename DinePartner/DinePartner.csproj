@@ -63,6 +63,7 @@
     <Compile Include="Filters.cs" />
     <Compile Include="FindYourTable.cs" />
     <Compile Include="RecommendRestaurant.cs" />
+    <Compile Include="Restaurateur.cs" />
     <Compile Include="Signin.cs" />
     <Compile Include="Signup.cs" />
     <Compile Include="TestCases.cs" />
