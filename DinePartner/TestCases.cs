@@ -33,7 +33,7 @@ namespace DinePartner
             QuitBrowser();
         }
 
-
+        [TestCategory("SignUp")]
         [TestMethod]
         
         public void FYP_T1_SignupButtonClickable()
@@ -42,7 +42,7 @@ namespace DinePartner
             signupFunctionality ss = new signupFunctionality(driver);
             ss.signupbuttonisclickable();
         }
-
+        [TestCategory("SignUp")]
         [TestMethod]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupforvalid", DataAccessMethod.Sequential)]
         public void FYP_T2_SignupforValid()
@@ -60,7 +60,7 @@ namespace DinePartner
 
             ss.signupForValid(firstname, lastname, email, phone, city, password, confirmpassword);
         }
-
+        [TestCategory("SignUp")]
         [TestMethod]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithincorrectemail", DataAccessMethod.Sequential)]
         public void FYP_T3_Signupwithincorrectemail()
@@ -78,40 +78,42 @@ namespace DinePartner
 
             ss.signupwithincorrectEmail(firstname, lastname, email, phone, city, password, confirmpassword);
         }
-        //[TestMethod]
-        //[DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithregister", DataAccessMethod.Sequential)]
-        //public void FYP_T4_Signupwithregisteruser()
-        //{
+        [TestCategory("SignUp")]
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithregister", DataAccessMethod.Sequential)]
+        public void FYP_T4_Signupwithregisteruser()
+        {
 
-        //    signupFunctionality ss = new signupFunctionality(driver);
+            signupFunctionality ss = new signupFunctionality(driver);
 
-        //    string firstname = TestContext.DataRow["firstname"].ToString();
-        //    string lastname = TestContext.DataRow["lastname"].ToString();
-        //    string email = TestContext.DataRow["email"].ToString();
-        //    string phone = TestContext.DataRow["phone"].ToString();
-        //    string city = TestContext.DataRow["city"].ToString();
-        //    string password = TestContext.DataRow["password"].ToString();
-        //    string confirmpassword = TestContext.DataRow["confirmpassword"].ToString();
+            string firstname = TestContext.DataRow["firstname"].ToString();
+            string lastname = TestContext.DataRow["lastname"].ToString();
+            string email = TestContext.DataRow["email"].ToString();
+            string phone = TestContext.DataRow["phone"].ToString();
+            string city = TestContext.DataRow["city"].ToString();
+            string password = TestContext.DataRow["password"].ToString();
+            string confirmpassword = TestContext.DataRow["confirmpassword"].ToString();
 
-        //    ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
-        //}
-        //[TestMethod]
-        //[DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithoutconfirmpassword", DataAccessMethod.Sequential)]
-        //public void FYP_T5_signupwithoutconfirmpassword()
-        //{
+            ss.signupWithRegisteredUSer(firstname, lastname, email, phone, city, password, confirmpassword);
+        }
+        [TestCategory("SignUp")]
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signupwithoutconfirmpassword", DataAccessMethod.Sequential)]
+        public void FYP_T5_signupwithoutconfirmpassword()
+        {
 
-        //    signupFunctionality ss = new signupFunctionality(driver);
+            signupFunctionality ss = new signupFunctionality(driver);
 
-        //    string firstname = TestContext.DataRow["firstname"].ToString();
-        //    string lastname = TestContext.DataRow["lastname"].ToString();
-        //    string email = TestContext.DataRow["email"].ToString();
-        //    string phone = TestContext.DataRow["phone"].ToString();
-        //    string city = TestContext.DataRow["city"].ToString();
-        //    string password = TestContext.DataRow["password"].ToString();
-        //    string confirmpassword = TestContext.DataRow["confirmpassword"].ToString();
+            string firstname = TestContext.DataRow["firstname"].ToString();
+            string lastname = TestContext.DataRow["lastname"].ToString();
+            string email = TestContext.DataRow["email"].ToString();
+            string phone = TestContext.DataRow["phone"].ToString();
+            string city = TestContext.DataRow["city"].ToString();
+            string password = TestContext.DataRow["password"].ToString();
+            string confirmpassword = TestContext.DataRow["confirmpassword"].ToString();
 
-        //    ss.signup(firstname, lastname, email, phone, city, password, confirmpassword);
-        //}
+            ss.signupWithoutConfirmPassword(firstname, lastname, email, phone, city, password, confirmpassword);
+        }
 
         [TestMethod]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "file.xml", "signinvalid", DataAccessMethod.Sequential)]
