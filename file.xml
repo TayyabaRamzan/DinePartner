@@ -65,5 +65,20 @@
 		<findtable>
 			<Rname>Monal</Rname>
 		</findtable>
+		<EmailMandatory>
+			<name>Tayyaba</name>
+			<email></email>
+			<restaurant>Fork N Knives</restaurant>
+		</EmailMandatory>
+		<NameMandatory>
+			<name></name>
+			<email>tayyabaramzan1516@gmail.com</email>
+			<restaurant>Fork N Knives</restaurant>
+		</NameMandatory>
+		<RestaurantMandatory>
+			<name>Tayyaba</name>
+			<email>tayyabaramzan1516@gmail.com</email>
+			<restaurant></restaurant>
+		</RestaurantMandatory>
 	</Execution>
 </DinePartner>
