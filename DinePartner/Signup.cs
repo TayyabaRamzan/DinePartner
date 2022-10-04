@@ -84,22 +84,104 @@ namespace DinePartner
         #endregion
    
         #region signUP     
-        public void signup(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
+        public void signupbuttonisclickable()
         {
+            Program.log.Info("FYP_T1_Verify sign up button is clickable and functional");
+            Program.log.Info("Launch the Website ");
             OpenURL();
-            guesttclick();  
-            inputFirstname(Firstname);
-            inputLastname(Lastname);
-            inputemail(Email);
-            inputPhonenumber(PhoneNo);
-            inputCity(City);
+            Program.log.Info("Website should be launched successfully");
+            Program.log.Info("Click on Guest button");
+            guesttclick();
+            Program.log.Info("Sign up form should be opened");
+            Program.log.Info("Scroll to an element");
             scroll(scrlelement);
-            inputPassword(pass);
-            inputConfirmPass(Confirmpassword);
-            clickcheckbox();
+            Program.log.Info("It should display Sign up button");
+            Program.log.Info("Click on Sign up button ");
             submitclick();
+            Program.log.Info("Sign up button is clickable and Functional");
             Thread.Sleep(6000);
             
+        }
+        public void signupForValid(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
+        {
+            Program.log.Info("FYP_T2_Verify sign up With valid Credentials");
+            Program.log.Info("Launch the Website ");
+            OpenURL();
+            Program.log.Info("Website should be launched successfully");
+            Program.log.Info("Click on Guest button");
+            guesttclick();
+            Program.log.Info("Sign up form should be opened");
+            Program.log.Info("Enter data in firstname field ");
+            inputFirstname(Firstname);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in lastname field ");
+            inputLastname(Lastname);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in email field ");
+            inputemail(Email);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in Contact numbber field ");
+            inputPhonenumber(PhoneNo);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in Your city field ");
+            inputCity(City);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Scroll to an element");
+            scroll(scrlelement);
+            Program.log.Info("It should display Password Field");
+            Program.log.Info("Enter data in password field ");
+            inputPassword(pass);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in password field ");
+            inputConfirmPass(Confirmpassword);
+            Program.log.Info("Data should be entered successfully");
+            clickcheckbox();
+            Program.log.Info("Click on Sign up button");
+            submitclick();
+            Program.log.Info("It should Sign up Successfuly");
+            Thread.Sleep(6000);
+
+        }
+
+        public void signupwithincorrectEmail(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
+        {
+            Program.log.Info("FYP_T3_Verify sign up With incorrect email");
+            Program.log.Info("Launch the Website ");
+            OpenURL();
+            Program.log.Info("Website should be launched successfully");
+            Program.log.Info("Click on Guest button");
+            guesttclick();
+            Program.log.Info("Sign up form should be opened");
+            Program.log.Info("Enter data in firstname field ");
+            inputFirstname(Firstname);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in lastname field ");
+            inputLastname(Lastname);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter incorrect email in email field ");
+            inputemail(Email);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in Contact numbber field ");
+            inputPhonenumber(PhoneNo);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in Your city field ");
+            inputCity(City);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Scroll to an element");
+            scroll(scrlelement);
+            Program.log.Info("It should display Password Field");
+            Program.log.Info("Enter data in password field ");
+            inputPassword(pass);
+            Program.log.Info("Data should be entered successfully");
+            Program.log.Info("Enter data in password field ");
+            inputConfirmPass(Confirmpassword);
+            Program.log.Info("Data should be entered successfully");
+            clickcheckbox();
+            Program.log.Info("Click on Sign up button");
+            submitclick();
+            Program.log.Info("It should not Sign up Successfuly");
+            Thread.Sleep(6000);
+
         }
         #endregion
     }

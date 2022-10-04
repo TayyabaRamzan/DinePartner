@@ -48,12 +48,17 @@ namespace DinePartner
 
         #region
 
-        public void signin(string emailinput, string emailPass)
+        public void signin(string emailinput, string PassInput)
         {
+            Program.log.Info("open Url");
             OpenURL();
+            Program.log.Info("Click on Guest button");
             guesttclick();
+            Program.log.Info("Enter email in email Field");
             EnterEmail(emailinput);
-            EnterPass(emailPass);
+            Program.log.Info("Enter password in password field");
+            EnterPass(PassInput);
+            Program.log.Info("Click on Sign in Button");
             clickSignin();
             Thread.Sleep(5000);
         }
