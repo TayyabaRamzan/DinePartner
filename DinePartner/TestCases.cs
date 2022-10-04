@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using AventStack.ExtentReports.Reporter;
 
 namespace DinePartner
 {
@@ -32,6 +33,7 @@ namespace DinePartner
             //closebrowser();
             QuitBrowser();
         }
+        public ExtentHtmlReporter report = new ExtentHtmlReporter("");
 
         [TestCategory("SignUp")]
         [TestMethod]
