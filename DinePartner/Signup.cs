@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using AventStack.ExtentReports;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
@@ -86,7 +87,8 @@ namespace DinePartner
         #region signUP     
         public void signupbuttonisclickable()
         {
-            Program.log.Info("FYP_T1_Verify sign up button is clickable and functional");
+            ExtentTest test = extent.CreateTest("FYP_T1_Verify sign up button is clickable and functional");
+
             Program.log.Info("Launch the Website ");
             OpenURL();
             Program.log.Info("Website should be launched successfully");

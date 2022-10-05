@@ -8,6 +8,7 @@ using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using AventStack.ExtentReports.Reporter;
+using AventStack.ExtentReports;
 
 namespace DinePartner
 {
@@ -33,7 +34,7 @@ namespace DinePartner
             //closebrowser();
             QuitBrowser();
         }
-        public ExtentHtmlReporter report = new ExtentHtmlReporter("");
+        
 
         [TestCategory("SignUp")]
         [TestMethod]
@@ -41,8 +42,17 @@ namespace DinePartner
         public void FYP_T1_SignupButtonClickable()
         {
 
+            extent.AttachReporter(report);
+
+
             signupFunctionality ss = new signupFunctionality(driver);
             ss.signupbuttonisclickable();
+            //ExtentTest test = extent.CreateTest("FYP_T1_Verify sign up button is clickable and functional");
+
+
+
+
+            extent.Flush();
         }
         [TestCategory("SignUp")]
         [TestMethod]

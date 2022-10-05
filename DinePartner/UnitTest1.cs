@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using AventStack.ExtentReports.Reporter;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -13,6 +14,10 @@ namespace DinePartner
 
     public class CommonMethods
     {
+
+        public ExtentHtmlReporter report = new ExtentHtmlReporter("C://Users//ramzatay//source//repos//DinePartner//reports//" + DateTime.Now.ToString("ddMMyyyy"));
+        public AventStack.ExtentReports.ExtentReports extent = new AventStack.ExtentReports.ExtentReports();
+
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public IWebDriver driver;
