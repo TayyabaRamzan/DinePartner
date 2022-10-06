@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ed204426-6378-4e79-b707-c7ac27336eb2" name="ramzatay@CRLHV-PRET50 2022-10-04 17:15:17" runUser="CONTOURSOFTWARE\ramzatay" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-10-04T17:15:17.3222555+05:00" queuing="2022-10-04T17:15:17.3222555+05:00" start="2022-10-04T17:14:56.2655449+05:00" finish="2022-10-04T17:19:54.2728694+05:00" />
+  <TestSettings name="default" id="e43588e1-c0a6-4959-abb2-2c1869ee3ac9">
+    <Deployment runDeploymentRoot="ramzatay_CRLHV-PRET50_2022-10-04_17_15_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8622e198-9cf7-44c6-960d-f0c9fe703cad" testId="d505e6df-0697-48cf-89c7-3d53bb81adc5" testName="FYP_T6_signinforValid (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:14.2461315" startTime="2022-10-04T17:16:21.2431964+05:00" endTime="2022-10-04T17:16:35.4919365+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8622e198-9cf7-44c6-960d-f0c9fe703cad" />
+    <UnitTestResult executionId="8ccd5dac-6f80-403b-869a-3efa63e13483" testId="6249026b-6f05-47ea-82ad-a00fa89957eb" testName="FYP_T14_search5StarISlRestaurant" computerName="CRLHV-PRET50" duration="00:00:16.9307908" startTime="2022-10-04T17:18:13.6733362+05:00" endTime="2022-10-04T17:18:30.6055833+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ccd5dac-6f80-403b-869a-3efa63e13483" />
+    <UnitTestResult executionId="8a320adf-0685-4000-8ff5-9b93bd6e7987" testId="b101bad9-a8b0-4bc7-8e05-08bbbebb0542" testName="FYP_T7_signinwithIncorrectEmail (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:13.8892559" startTime="2022-10-04T17:16:35.4929805+05:00" endTime="2022-10-04T17:16:49.3929448+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a320adf-0685-4000-8ff5-9b93bd6e7987" />
+    <UnitTestResult executionId="ee98cd2b-e5ec-406c-aad2-6a1cf4795b84" testId="a8e78876-45ea-4cab-834e-83a4ff9be41c" testName="FYP_T3_Signupwithincorrectemail (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:14.9180301" startTime="2022-10-04T17:15:34.5706645+05:00" endTime="2022-10-04T17:15:49.4929273+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee98cd2b-e5ec-406c-aad2-6a1cf4795b84" />
+    <UnitTestResult executionId="66bb99f8-7344-4f9a-a8c6-ceb1e0104f05" testId="40563164-ad54-490b-8449-f524e0e11651" testName="FYP_T1_SignupButtonClickable" computerName="CRLHV-PRET50" duration="00:00:15.5076239" startTime="2022-10-04T17:15:01.2418634+05:00" endTime="2022-10-04T17:15:17.2222529+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66bb99f8-7344-4f9a-a8c6-ceb1e0104f05" />
+    <UnitTestResult executionId="d62f53ee-05cf-4a36-9789-ebee67fb58f4" testId="2f452c42-f2e8-4ad8-8423-90969a4cb239" testName="FYP_T12_searchIslrestaurants" computerName="CRLHV-PRET50" duration="00:00:15.2708384" startTime="2022-10-04T17:17:43.5575476+05:00" endTime="2022-10-04T17:17:58.8287714+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d62f53ee-05cf-4a36-9789-ebee67fb58f4" />
+    <UnitTestResult executionId="39de6148-cb2c-485f-813f-f1a15b7e39d3" testId="ff0b237c-41b4-4fd3-bcb1-c93ff9c4a9fb" testName="FYP_T10_SearchiconClickable" computerName="CRLHV-PRET50" duration="00:00:12.4025347" startTime="2022-10-04T17:17:17.6651071+05:00" endTime="2022-10-04T17:17:30.0686082+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39de6148-cb2c-485f-813f-f1a15b7e39d3" />
+    <UnitTestResult executionId="14f231f0-f385-48dc-b35e-68ceaa53de24" testId="7659fa12-1f3b-4f20-b119-596fadbb93d5" testName="FYP_T13_searchContinentalCuisinewithLiveBBQ" computerName="CRLHV-PRET50" duration="00:00:14.8397243" startTime="2022-10-04T17:17:58.8297761+05:00" endTime="2022-10-04T17:18:13.6725076+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14f231f0-f385-48dc-b35e-68ceaa53de24" />
+    <UnitTestResult executionId="65faeca7-05f9-46fb-b45a-d3537133bfe8" testId="1c79a706-887a-4f74-865f-b7586c2f46df" testName="FYP_T17_NameForMandatory (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:18.5861227" startTime="2022-10-04T17:19:00.6539002+05:00" endTime="2022-10-04T17:19:19.2419221+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65faeca7-05f9-46fb-b45a-d3537133bfe8" />
+    <UnitTestResult executionId="dd30f4c0-b98a-4c31-9ca7-e926fa7a3e31" testId="a49f09f8-c987-4fc5-ab6e-64e645dd0ffe" testName="FYP_T16_EmailForMandatory (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:16.1091577" startTime="2022-10-04T17:18:44.5402025+05:00" endTime="2022-10-04T17:19:00.6529005+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd30f4c0-b98a-4c31-9ca7-e926fa7a3e31" />
+    <UnitTestResult executionId="efd7234b-e4e1-4932-8292-203ea71344e4" testId="034a3cdc-4329-46ea-adaf-109576d837bc" testName="FYP_T18_RestaurantForMandatory (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:18.3050447" startTime="2022-10-04T17:19:19.2439631+05:00" endTime="2022-10-04T17:19:37.5511348+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efd7234b-e4e1-4932-8292-203ea71344e4" />
+    <UnitTestResult executionId="64c91fcf-fcab-496f-818d-100666160485" testId="90c54deb-1cf3-41b2-af51-1a89d4f85496" testName="FYP_T15_RecommendIsClickable" computerName="CRLHV-PRET50" duration="00:00:13.9318403" startTime="2022-10-04T17:18:30.6065844+05:00" endTime="2022-10-04T17:18:44.5392050+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64c91fcf-fcab-496f-818d-100666160485" />
+    <UnitTestResult executionId="de0483bc-a247-4dc8-bf17-4483c9e54d45" testId="e4dcccb8-8a1f-4b1f-a9a5-73f377e1544a" testName="FYP_T4_Signupwithregisteruser (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:16.5029121" startTime="2022-10-04T17:15:49.4939291+05:00" endTime="2022-10-04T17:16:05.9992079+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de0483bc-a247-4dc8-bf17-4483c9e54d45" />
+    <UnitTestResult executionId="868a53c5-3d27-41a8-8eaf-b0b695fba302" testId="5094bc35-d466-4b25-adfa-916b5ef6b36d" testName="FYP_T8_signinwithIncorrectpass (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:15.0293422" startTime="2022-10-04T17:17:02.6310546+05:00" endTime="2022-10-04T17:17:17.6631136+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="868a53c5-3d27-41a8-8eaf-b0b695fba302" />
+    <UnitTestResult executionId="dbabbe51-5668-42da-b5fe-f752b1cd1dc7" testId="d3896ea5-c883-42d7-99c4-8c55dda5459f" testName="FYP_T19_SendIsClickable" computerName="CRLHV-PRET50" duration="00:00:16.4480381" startTime="2022-10-04T17:19:37.5531350+05:00" endTime="2022-10-04T17:19:54.0028153+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbabbe51-5668-42da-b5fe-f752b1cd1dc7" />
+    <UnitTestResult executionId="ed1c476d-a003-4c47-ad8d-496abdcd8af8" testId="013ddd2d-0259-4db3-b5e1-e595bc3ab723" testName="FYP_T5_signupwithoutconfirmpassword (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:15.2391249" startTime="2022-10-04T17:16:06.0002078+05:00" endTime="2022-10-04T17:16:21.2421952+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed1c476d-a003-4c47-ad8d-496abdcd8af8" />
+    <UnitTestResult executionId="2c27ff81-972a-4cbc-b917-09397aa3c429" testId="08622e84-529d-45d9-b66a-467530396ae2" testName="FYP_T9_Signinbutton (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:13.2319622" startTime="2022-10-04T17:16:49.3939437+05:00" endTime="2022-10-04T17:17:02.6300543+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c27ff81-972a-4cbc-b917-09397aa3c429" />
+    <UnitTestResult executionId="9b1d3a98-cdaa-416f-9a71-13242112df30" testId="c65246a7-5eda-4e53-a70f-91c2bbd4232a" testName="Fyp_T11_findtableusingRestaurantName (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:13.4822642" startTime="2022-10-04T17:17:30.0706093+05:00" endTime="2022-10-04T17:17:43.5555458+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b1d3a98-cdaa-416f-9a71-13242112df30" />
+    <UnitTestResult executionId="5bf580cb-575d-4c3b-a26a-e477ab43f144" testId="7ab30466-8e22-486b-9e35-46e36b8faa6f" testName="FYP_T2_SignupforValid (Data Row 0)" computerName="CRLHV-PRET50" duration="00:00:16.6209798" startTime="2022-10-04T17:15:17.2532910+05:00" endTime="2022-10-04T17:15:34.5636654+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bf580cb-575d-4c3b-a26a-e477ab43f144" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Fyp_T11_findtableusingRestaurantName (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="c65246a7-5eda-4e53-a70f-91c2bbd4232a">
+      <Execution id="9b1d3a98-cdaa-416f-9a71-13242112df30" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="Fyp_T11_findtableusingRestaurantName" />
+    </UnitTest>
+    <UnitTest name="FYP_T12_searchIslrestaurants" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="2f452c42-f2e8-4ad8-8423-90969a4cb239">
+      <Execution id="d62f53ee-05cf-4a36-9789-ebee67fb58f4" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T12_searchIslrestaurants" />
+    </UnitTest>
+    <UnitTest name="FYP_T8_signinwithIncorrectpass (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="5094bc35-d466-4b25-adfa-916b5ef6b36d">
+      <Execution id="868a53c5-3d27-41a8-8eaf-b0b695fba302" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T8_signinwithIncorrectpass" />
+    </UnitTest>
+    <UnitTest name="FYP_T7_signinwithIncorrectEmail (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="b101bad9-a8b0-4bc7-8e05-08bbbebb0542">
+      <Execution id="8a320adf-0685-4000-8ff5-9b93bd6e7987" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T7_signinwithIncorrectEmail" />
+    </UnitTest>
+    <UnitTest name="FYP_T5_signupwithoutconfirmpassword (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="013ddd2d-0259-4db3-b5e1-e595bc3ab723">
+      <Execution id="ed1c476d-a003-4c47-ad8d-496abdcd8af8" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T5_signupwithoutconfirmpassword" />
+    </UnitTest>
+    <UnitTest name="FYP_T10_SearchiconClickable" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="ff0b237c-41b4-4fd3-bcb1-c93ff9c4a9fb">
+      <Execution id="39de6148-cb2c-485f-813f-f1a15b7e39d3" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T10_SearchiconClickable" />
+    </UnitTest>
+    <UnitTest name="FYP_T4_Signupwithregisteruser (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="e4dcccb8-8a1f-4b1f-a9a5-73f377e1544a">
+      <Execution id="de0483bc-a247-4dc8-bf17-4483c9e54d45" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T4_Signupwithregisteruser" />
+    </UnitTest>
+    <UnitTest name="FYP_T9_Signinbutton (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="08622e84-529d-45d9-b66a-467530396ae2">
+      <Execution id="2c27ff81-972a-4cbc-b917-09397aa3c429" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T9_Signinbutton" />
+    </UnitTest>
+    <UnitTest name="FYP_T15_RecommendIsClickable" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="90c54deb-1cf3-41b2-af51-1a89d4f85496">
+      <Execution id="64c91fcf-fcab-496f-818d-100666160485" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T15_RecommendIsClickable" />
+    </UnitTest>
+    <UnitTest name="FYP_T13_searchContinentalCuisinewithLiveBBQ" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="7659fa12-1f3b-4f20-b119-596fadbb93d5">
+      <Execution id="14f231f0-f385-48dc-b35e-68ceaa53de24" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T13_searchContinentalCuisinewithLiveBBQ" />
+    </UnitTest>
+    <UnitTest name="FYP_T18_RestaurantForMandatory (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="034a3cdc-4329-46ea-adaf-109576d837bc">
+      <Execution id="efd7234b-e4e1-4932-8292-203ea71344e4" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T18_RestaurantForMandatory" />
+    </UnitTest>
+    <UnitTest name="FYP_T3_Signupwithincorrectemail (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="a8e78876-45ea-4cab-834e-83a4ff9be41c">
+      <Execution id="ee98cd2b-e5ec-406c-aad2-6a1cf4795b84" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T3_Signupwithincorrectemail" />
+    </UnitTest>
+    <UnitTest name="FYP_T1_SignupButtonClickable" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="40563164-ad54-490b-8449-f524e0e11651">
+      <Execution id="66bb99f8-7344-4f9a-a8c6-ceb1e0104f05" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T1_SignupButtonClickable" />
+    </UnitTest>
+    <UnitTest name="FYP_T6_signinforValid (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="d505e6df-0697-48cf-89c7-3d53bb81adc5">
+      <Execution id="8622e198-9cf7-44c6-960d-f0c9fe703cad" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T6_signinforValid" />
+    </UnitTest>
+    <UnitTest name="FYP_T17_NameForMandatory (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="1c79a706-887a-4f74-865f-b7586c2f46df">
+      <Execution id="65faeca7-05f9-46fb-b45a-d3537133bfe8" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T17_NameForMandatory" />
+    </UnitTest>
+    <UnitTest name="FYP_T16_EmailForMandatory (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="a49f09f8-c987-4fc5-ab6e-64e645dd0ffe">
+      <Execution id="dd30f4c0-b98a-4c31-9ca7-e926fa7a3e31" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T16_EmailForMandatory" />
+    </UnitTest>
+    <UnitTest name="FYP_T2_SignupforValid (Data Row 0)" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="7ab30466-8e22-486b-9e35-46e36b8faa6f">
+      <Execution id="5bf580cb-575d-4c3b-a26a-e477ab43f144" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T2_SignupforValid" />
+    </UnitTest>
+    <UnitTest name="FYP_T19_SendIsClickable" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="d3896ea5-c883-42d7-99c4-8c55dda5459f">
+      <Execution id="dbabbe51-5668-42da-b5fe-f752b1cd1dc7" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T19_SendIsClickable" />
+    </UnitTest>
+    <UnitTest name="FYP_T14_search5StarISlRestaurant" storage="c:\users\ramzatay\source\repos\dinepartner\dinepartner\bin\debug\dinepartner.dll" id="6249026b-6f05-47ea-82ad-a00fa89957eb">
+      <Execution id="8ccd5dac-6f80-403b-869a-3efa63e13483" />
+      <TestMethod codeBase="C:\Users\ramzatay\source\repos\DinePartner\DinePartner\bin\Debug\DinePartner.dll" adapterTypeName="executor://mstestadapter/v2" className="DinePartner.TestCases" name="FYP_T14_search5StarISlRestaurant" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d505e6df-0697-48cf-89c7-3d53bb81adc5" executionId="8622e198-9cf7-44c6-960d-f0c9fe703cad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6249026b-6f05-47ea-82ad-a00fa89957eb" executionId="8ccd5dac-6f80-403b-869a-3efa63e13483" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b101bad9-a8b0-4bc7-8e05-08bbbebb0542" executionId="8a320adf-0685-4000-8ff5-9b93bd6e7987" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8e78876-45ea-4cab-834e-83a4ff9be41c" executionId="ee98cd2b-e5ec-406c-aad2-6a1cf4795b84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40563164-ad54-490b-8449-f524e0e11651" executionId="66bb99f8-7344-4f9a-a8c6-ceb1e0104f05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f452c42-f2e8-4ad8-8423-90969a4cb239" executionId="d62f53ee-05cf-4a36-9789-ebee67fb58f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff0b237c-41b4-4fd3-bcb1-c93ff9c4a9fb" executionId="39de6148-cb2c-485f-813f-f1a15b7e39d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7659fa12-1f3b-4f20-b119-596fadbb93d5" executionId="14f231f0-f385-48dc-b35e-68ceaa53de24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c79a706-887a-4f74-865f-b7586c2f46df" executionId="65faeca7-05f9-46fb-b45a-d3537133bfe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a49f09f8-c987-4fc5-ab6e-64e645dd0ffe" executionId="dd30f4c0-b98a-4c31-9ca7-e926fa7a3e31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="034a3cdc-4329-46ea-adaf-109576d837bc" executionId="efd7234b-e4e1-4932-8292-203ea71344e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c54deb-1cf3-41b2-af51-1a89d4f85496" executionId="64c91fcf-fcab-496f-818d-100666160485" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4dcccb8-8a1f-4b1f-a9a5-73f377e1544a" executionId="de0483bc-a247-4dc8-bf17-4483c9e54d45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5094bc35-d466-4b25-adfa-916b5ef6b36d" executionId="868a53c5-3d27-41a8-8eaf-b0b695fba302" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3896ea5-c883-42d7-99c4-8c55dda5459f" executionId="dbabbe51-5668-42da-b5fe-f752b1cd1dc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="013ddd2d-0259-4db3-b5e1-e595bc3ab723" executionId="ed1c476d-a003-4c47-ad8d-496abdcd8af8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08622e84-529d-45d9-b66a-467530396ae2" executionId="2c27ff81-972a-4cbc-b917-09397aa3c429" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c65246a7-5eda-4e53-a70f-91c2bbd4232a" executionId="9b1d3a98-cdaa-416f-9a71-13242112df30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ab30466-8e22-486b-9e35-46e36b8faa6f" executionId="5bf580cb-575d-4c3b-a26a-e477ab43f144" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
