@@ -1,0 +1,616 @@
+2022-10-04 16:28:20,776 [12] INFO DinePartner.Program - FYP_T1_Verify sign up button is clickable and functional
+2022-10-04 16:28:20,803 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 16:28:24,819 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 16:28:24,821 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 16:28:26,510 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 16:28:26,513 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 16:28:26,549 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-04 16:28:26,550 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-04 16:28:27,109 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-04 16:28:53,929 [12] INFO DinePartner.Program - FYP_T2_Verify sign up With valid Credentials
+2022-10-04 16:28:53,953 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 16:28:57,713 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 16:28:57,720 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 16:28:59,299 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 16:28:59,308 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-04 16:28:59,554 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:28:59,559 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-04 16:28:59,811 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:28:59,817 [12] INFO DinePartner.Program - Enter data in email field 
+2022-10-04 16:29:00,269 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:00,274 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-04 16:29:00,428 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:00,434 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-04 16:29:00,539 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:00,540 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 16:29:00,573 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-04 16:29:00,575 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-04 16:29:00,696 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:00,698 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-04 16:29:00,870 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:00,989 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-04 16:29:02,312 [12] INFO DinePartner.Program - It should Sign up Successfuly
+2022-10-04 16:29:22,652 [12] INFO DinePartner.Program - FYP_T3_Verify sign up With incorrect email
+2022-10-04 16:29:22,671 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 16:29:26,446 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 16:29:26,458 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 16:29:28,210 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 16:29:28,218 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-04 16:29:28,464 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:28,471 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-04 16:29:28,687 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:28,695 [12] INFO DinePartner.Program - Enter incorrect email in email field 
+2022-10-04 16:29:28,940 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:28,969 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-04 16:29:29,251 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:29,257 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-04 16:29:29,400 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:29,407 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 16:29:29,451 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-04 16:29:29,452 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-04 16:29:29,590 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:29,591 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-04 16:29:29,774 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 16:29:29,906 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-04 16:29:30,108 [12] INFO DinePartner.Program - It should not Sign up Successfuly
+2022-10-04 17:15:04,988 [12] INFO DinePartner.Program - FYP_T1_Verify sign up button is clickable and functional
+2022-10-04 17:15:05,007 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 17:15:08,658 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 17:15:08,748 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:15:10,223 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 17:15:10,233 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 17:15:10,309 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-04 17:15:10,316 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-04 17:15:10,566 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-04 17:15:19,674 [12] INFO DinePartner.Program - FYP_T2_Verify sign up With valid Credentials
+2022-10-04 17:15:19,681 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 17:15:22,913 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 17:15:22,965 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:15:25,019 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 17:15:25,028 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-04 17:15:25,194 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:25,200 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-04 17:15:25,365 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:25,368 [12] INFO DinePartner.Program - Enter data in email field 
+2022-10-04 17:15:25,726 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:25,732 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-04 17:15:25,896 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:25,904 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-04 17:15:26,026 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:26,027 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 17:15:26,066 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-04 17:15:26,067 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-04 17:15:26,216 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:26,218 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-04 17:15:26,382 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:26,520 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-04 17:15:27,868 [12] INFO DinePartner.Program - It should Sign up Successfuly
+2022-10-04 17:15:36,477 [12] INFO DinePartner.Program - FYP_T3_Verify sign up With incorrect email
+2022-10-04 17:15:36,489 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 17:15:39,810 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 17:15:39,840 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:15:41,249 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 17:15:41,257 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-04 17:15:41,438 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:41,447 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-04 17:15:41,583 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:41,585 [12] INFO DinePartner.Program - Enter incorrect email in email field 
+2022-10-04 17:15:41,787 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:41,827 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-04 17:15:42,112 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:42,118 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-04 17:15:42,245 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:42,252 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 17:15:42,290 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-04 17:15:42,292 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-04 17:15:42,429 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:42,430 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-04 17:15:42,584 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:42,706 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-04 17:15:42,879 [12] INFO DinePartner.Program - It should not Sign up Successfuly
+2022-10-04 17:15:51,337 [12] INFO DinePartner.Program - FYP_T4_Verify sign up With incorrect email
+2022-10-04 17:15:51,345 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 17:15:55,094 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 17:15:55,102 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:15:56,491 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 17:15:56,502 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-04 17:15:56,681 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:56,689 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-04 17:15:56,839 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:56,841 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-04 17:15:57,303 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:57,311 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-04 17:15:57,464 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:57,470 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-04 17:15:57,590 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:57,593 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 17:15:57,630 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-04 17:15:57,632 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-04 17:15:57,784 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:57,786 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-04 17:15:57,942 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:15:58,059 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-04 17:15:59,330 [12] INFO DinePartner.Program - It should display an error message
+2022-10-04 17:16:07,953 [12] INFO DinePartner.Program - FYP_T4_Verify sign up With incorrect email
+2022-10-04 17:16:07,958 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-04 17:16:11,215 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-04 17:16:11,221 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:16:12,578 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-04 17:16:12,586 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-04 17:16:12,810 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:16:12,817 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-04 17:16:13,127 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:16:13,136 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-04 17:16:13,707 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:16:13,714 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-04 17:16:13,899 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:16:13,908 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-04 17:16:14,070 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:16:14,072 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-04 17:16:14,112 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-04 17:16:14,113 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-04 17:16:14,261 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-04 17:16:14,263 [12] INFO DinePartner.Program - Do not enter password in confirm password field 
+2022-10-04 17:16:14,396 [12] INFO DinePartner.Program - It should display an empty field 
+2022-10-04 17:16:14,532 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-04 17:16:14,719 [12] INFO DinePartner.Program - It should display an error message
+2022-10-04 17:16:23,000 [12] INFO DinePartner.Program - open Url
+2022-10-04 17:16:26,377 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:16:28,094 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-04 17:16:28,337 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-04 17:16:28,531 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-04 17:16:37,615 [12] INFO DinePartner.Program - open Url
+2022-10-04 17:16:41,676 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:16:43,234 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-04 17:16:43,455 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-04 17:16:43,611 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-04 17:16:51,318 [12] INFO DinePartner.Program - open Url
+2022-10-04 17:16:55,049 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:16:56,498 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-04 17:16:56,630 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-04 17:16:56,786 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-04 17:17:04,669 [12] INFO DinePartner.Program - open Url
+2022-10-04 17:17:08,167 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-04 17:17:09,744 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-04 17:17:10,400 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-04 17:17:10,612 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 09:45:21,663 [12] INFO DinePartner.Program - FYP_T1_Verify sign up button is clickable and functional
+2022-10-05 09:45:21,686 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 09:45:26,510 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 09:45:26,571 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:45:27,995 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 09:45:28,001 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 09:45:28,043 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 09:45:28,051 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 09:45:28,265 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 09:45:37,065 [12] INFO DinePartner.Program - FYP_T2_Verify sign up With valid Credentials
+2022-10-05 09:45:37,071 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 09:45:40,599 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 09:45:40,613 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:45:42,022 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 09:45:42,031 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 09:45:42,222 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:42,232 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 09:45:42,409 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:42,411 [12] INFO DinePartner.Program - Enter data in email field 
+2022-10-05 09:45:42,650 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:42,657 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 09:45:42,982 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:42,990 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 09:45:43,116 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:43,125 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 09:45:43,158 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 09:45:43,160 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 09:45:43,326 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:43,328 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 09:45:43,496 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:43,600 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 09:45:44,909 [12] INFO DinePartner.Program - It should Sign up Successfuly
+2022-10-05 09:45:53,408 [12] INFO DinePartner.Program - FYP_T3_Verify sign up With incorrect email
+2022-10-05 09:45:53,413 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 09:45:56,841 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 09:45:56,861 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:45:58,260 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 09:45:58,268 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 09:45:58,397 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:58,404 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 09:45:58,541 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:58,543 [12] INFO DinePartner.Program - Enter incorrect email in email field 
+2022-10-05 09:45:58,721 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:58,724 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 09:45:59,080 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:59,084 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 09:45:59,217 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:59,219 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 09:45:59,255 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 09:45:59,258 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 09:45:59,409 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:59,410 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 09:45:59,565 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:45:59,655 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 09:45:59,829 [12] INFO DinePartner.Program - It should not Sign up Successfuly
+2022-10-05 09:46:08,362 [12] INFO DinePartner.Program - FYP_T4_Verify sign up With incorrect email
+2022-10-05 09:46:08,368 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 09:46:11,980 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 09:46:12,003 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:46:13,636 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 09:46:13,648 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 09:46:13,814 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:13,823 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 09:46:13,999 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:14,001 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-05 09:46:14,558 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:14,568 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 09:46:14,746 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:14,756 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 09:46:14,892 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:14,894 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 09:46:14,924 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 09:46:14,925 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 09:46:15,062 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:15,064 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 09:46:15,215 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:15,323 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 09:46:16,569 [12] INFO DinePartner.Program - It should display an error message
+2022-10-05 09:46:25,291 [12] INFO DinePartner.Program - FYP_T4_Verify sign up With incorrect email
+2022-10-05 09:46:25,297 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 09:46:28,887 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 09:46:28,904 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:46:30,326 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 09:46:30,334 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 09:46:30,662 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:30,671 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 09:46:31,098 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:31,108 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-05 09:46:31,335 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:31,343 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 09:46:31,561 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:31,567 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 09:46:31,719 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:31,725 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 09:46:31,766 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 09:46:31,767 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 09:46:31,918 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 09:46:31,920 [12] INFO DinePartner.Program - Do not enter password in confirm password field 
+2022-10-05 09:46:32,033 [12] INFO DinePartner.Program - It should display an empty field 
+2022-10-05 09:46:32,169 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 09:46:32,385 [12] INFO DinePartner.Program - It should display an error message
+2022-10-05 09:46:41,080 [12] INFO DinePartner.Program - open Url
+2022-10-05 09:46:44,508 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:46:45,946 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 09:46:46,224 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 09:46:46,409 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 09:46:55,316 [12] INFO DinePartner.Program - open Url
+2022-10-05 09:46:59,541 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:47:01,076 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 09:47:01,360 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 09:47:01,544 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 09:47:09,216 [12] INFO DinePartner.Program - open Url
+2022-10-05 09:47:12,853 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:47:14,386 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 09:47:14,686 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 09:47:15,161 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 09:47:24,117 [12] INFO DinePartner.Program - open Url
+2022-10-05 09:47:27,673 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 09:47:29,133 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 09:47:29,323 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 09:47:29,491 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 10:05:45,842 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:05:49,892 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:05:49,894 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:05:51,510 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:05:51,519 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:05:51,563 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:05:51,570 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:05:51,781 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 10:07:27,184 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:07:30,889 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:07:30,891 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:07:32,442 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:07:32,455 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:07:32,530 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:07:32,540 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:07:32,835 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 10:08:57,056 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:09:00,718 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:09:00,719 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:09:02,242 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:09:02,249 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:09:02,307 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:09:02,314 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:09:02,558 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 10:11:35,399 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:11:38,974 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:11:38,976 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:11:41,100 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:11:41,109 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:11:41,163 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:11:41,172 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:11:41,370 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 10:41:01,022 [13] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:41:04,372 [13] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:41:04,373 [13] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:41:05,756 [13] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:41:05,765 [13] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:41:05,817 [13] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:41:05,827 [13] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:41:06,063 [13] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 10:42:11,211 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:42:14,896 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:42:14,898 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:42:16,526 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:42:16,530 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:42:16,567 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:42:16,574 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:42:16,748 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 10:43:50,475 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 10:43:53,624 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 10:43:53,625 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 10:43:54,909 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 10:43:54,916 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 10:43:54,966 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 10:43:54,974 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 10:43:55,189 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 11:02:13,977 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:02:17,776 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:02:17,785 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:02:19,185 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:02:19,192 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:02:19,251 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 11:02:19,259 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 11:02:19,514 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 11:02:37,010 [12] INFO DinePartner.Program - FYP_T2_Verify sign up With valid Credentials
+2022-10-05 11:02:37,016 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:02:40,505 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:02:40,515 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:02:41,888 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:02:41,893 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:02:42,012 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:42,018 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:02:42,138 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:42,139 [12] INFO DinePartner.Program - Enter data in email field 
+2022-10-05 11:02:42,290 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:42,292 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:02:42,455 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:42,456 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:02:42,568 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:42,569 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:02:42,713 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:02:42,714 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:02:42,866 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:42,867 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:02:43,007 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:43,140 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:02:44,237 [12] INFO DinePartner.Program - It should Sign up Successfuly
+2022-10-05 11:02:53,158 [12] INFO DinePartner.Program - FYP_T3_Verify sign up With incorrect email
+2022-10-05 11:02:53,168 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:02:56,480 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:02:56,494 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:02:57,816 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:02:57,827 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:02:58,032 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:58,047 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:02:58,299 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:58,307 [12] INFO DinePartner.Program - Enter incorrect email in email field 
+2022-10-05 11:02:58,834 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:58,843 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:02:59,021 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:59,030 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:02:59,175 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:59,176 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:02:59,211 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:02:59,212 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:02:59,385 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:59,389 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:02:59,590 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:02:59,710 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:02:59,985 [12] INFO DinePartner.Program - It should not Sign up Successfuly
+2022-10-05 11:03:08,299 [12] INFO DinePartner.Program - FYP_T4_Verify sign up With Registered user
+2022-10-05 11:03:08,306 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:03:11,796 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:03:11,808 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:03:13,177 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:03:13,185 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:03:13,340 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:13,347 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:03:13,554 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:13,556 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-05 11:03:13,930 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:13,935 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:03:14,064 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:14,073 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:03:14,175 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:14,177 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:03:14,215 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:03:14,217 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:03:14,381 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:14,383 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:03:14,529 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:14,663 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:03:16,042 [12] INFO DinePartner.Program - It should display an error message
+2022-10-05 11:03:24,617 [12] INFO DinePartner.Program - FYP_T5_Verify sign up Without Confirm Password 
+2022-10-05 11:03:24,622 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:03:28,297 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:03:28,312 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:03:29,692 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:03:29,699 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:03:29,933 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:29,939 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:03:30,103 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:30,111 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-05 11:03:30,332 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:30,333 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:03:30,568 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:30,580 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:03:30,905 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:30,910 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:03:30,943 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:03:30,951 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:03:31,078 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:03:31,080 [12] INFO DinePartner.Program - Do not enter password in confirm password field 
+2022-10-05 11:03:31,204 [12] INFO DinePartner.Program - It should display an empty field 
+2022-10-05 11:03:31,309 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:03:31,498 [12] INFO DinePartner.Program - It should display an error message
+2022-10-05 11:03:40,156 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:03:43,558 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:03:45,253 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:03:45,448 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:03:45,661 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:03:54,598 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:03:59,822 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:04:01,246 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:04:01,460 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:04:01,899 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:04:09,608 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:04:13,425 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:04:14,680 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:04:14,876 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:04:15,051 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:04:23,686 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:04:27,362 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:04:28,841 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:04:29,008 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:04:29,429 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:10:09,715 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:10:13,250 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:10:13,271 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:10:15,017 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:10:15,026 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:10:15,084 [12] INFO DinePartner.Program - It should display Sign up button
+2022-10-05 11:10:15,093 [12] INFO DinePartner.Program - Click on Sign up button 
+2022-10-05 11:10:15,322 [12] INFO DinePartner.Program - Sign up button is clickable and Functional
+2022-10-05 11:10:32,620 [12] INFO DinePartner.Program - FYP_T2_Verify sign up With valid Credentials
+2022-10-05 11:10:32,626 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:10:36,150 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:10:36,164 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:10:37,859 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:10:37,868 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:10:38,106 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:38,118 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:10:38,595 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:38,604 [12] INFO DinePartner.Program - Enter data in email field 
+2022-10-05 11:10:38,851 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:38,860 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:10:39,023 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:39,028 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:10:39,143 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:39,144 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:10:39,172 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:10:39,173 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:10:39,321 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:39,322 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:10:39,507 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:39,672 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:10:41,001 [12] INFO DinePartner.Program - It should Sign up Successfuly
+2022-10-05 11:10:49,828 [12] INFO DinePartner.Program - FYP_T3_Verify sign up With incorrect email
+2022-10-05 11:10:49,834 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:10:53,064 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:10:53,076 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:10:54,774 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:10:54,784 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:10:55,134 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:55,145 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:10:55,610 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:55,619 [12] INFO DinePartner.Program - Enter incorrect email in email field 
+2022-10-05 11:10:55,917 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:55,924 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:10:56,101 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:56,109 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:10:56,269 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:56,271 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:10:56,351 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:10:56,353 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:10:56,562 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:56,563 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:10:56,788 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:10:56,919 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:10:57,161 [12] INFO DinePartner.Program - It should not Sign up Successfuly
+2022-10-05 11:11:05,806 [12] INFO DinePartner.Program - FYP_T4_Verify sign up With Registered user
+2022-10-05 11:11:05,818 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:11:09,413 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:11:09,436 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:11:11,050 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:11:11,055 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:11:11,245 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:11,269 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:11:11,575 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:11,576 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-05 11:11:11,793 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:11,801 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:11:11,962 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:11,968 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:11:12,082 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:12,083 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:11:12,113 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:11:12,114 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:11:12,239 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:12,240 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:11:12,363 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:12,480 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:11:13,922 [12] INFO DinePartner.Program - It should display an error message
+2022-10-05 11:11:22,526 [12] INFO DinePartner.Program - FYP_T5_Verify sign up Without Confirm Password 
+2022-10-05 11:11:22,531 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:11:26,081 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:11:26,088 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:11:27,437 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:11:27,446 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:11:27,605 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:27,611 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:11:27,742 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:27,743 [12] INFO DinePartner.Program - Enter registered email in Email field 
+2022-10-05 11:11:27,936 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:27,938 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:11:28,223 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:28,224 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:11:28,323 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:28,328 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:11:28,356 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:11:28,358 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:11:28,465 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:11:28,466 [12] INFO DinePartner.Program - Do not enter password in confirm password field 
+2022-10-05 11:11:28,553 [12] INFO DinePartner.Program - It should display an empty field 
+2022-10-05 11:11:28,644 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:11:28,801 [12] INFO DinePartner.Program - It should display an error message
+2022-10-05 11:11:37,530 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:11:40,743 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:11:42,196 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:11:42,449 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:11:42,601 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:11:51,418 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:11:54,746 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:11:56,206 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:11:56,454 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:11:56,589 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:12:04,619 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:12:09,556 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:12:11,283 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:12:11,560 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:12:11,789 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:12:20,630 [12] INFO DinePartner.Program - open Url
+2022-10-05 11:12:24,089 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:12:25,578 [12] INFO DinePartner.Program - Enter email in email Field
+2022-10-05 11:12:25,711 [12] INFO DinePartner.Program - Enter password in password field
+2022-10-05 11:12:25,827 [12] INFO DinePartner.Program - Click on Sign in Button
+2022-10-05 11:17:43,745 [12] INFO DinePartner.Program - FYP_T2_Verify sign up With valid Credentials
+2022-10-05 11:17:43,768 [12] INFO DinePartner.Program - Launch the Website 
+2022-10-05 11:17:47,426 [12] INFO DinePartner.Program - Website should be launched successfully
+2022-10-05 11:17:47,442 [12] INFO DinePartner.Program - Click on Guest button
+2022-10-05 11:17:48,896 [12] INFO DinePartner.Program - Sign up form should be opened
+2022-10-05 11:17:48,905 [12] INFO DinePartner.Program - Enter data in firstname field 
+2022-10-05 11:17:49,068 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:49,075 [12] INFO DinePartner.Program - Enter data in lastname field 
+2022-10-05 11:17:49,258 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:49,260 [12] INFO DinePartner.Program - Enter data in email field 
+2022-10-05 11:17:49,631 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:49,662 [12] INFO DinePartner.Program - Enter data in Contact numbber field 
+2022-10-05 11:17:49,838 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:49,850 [12] INFO DinePartner.Program - Enter data in Your city field 
+2022-10-05 11:17:49,954 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:49,955 [12] INFO DinePartner.Program - Scroll to an element
+2022-10-05 11:17:50,001 [12] INFO DinePartner.Program - It should display Password Field
+2022-10-05 11:17:50,003 [12] INFO DinePartner.Program - Enter data in password field 
+2022-10-05 11:17:50,145 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:50,147 [12] INFO DinePartner.Program - Enter data in Confirm password field 
+2022-10-05 11:17:50,291 [12] INFO DinePartner.Program - Data should be entered successfully
+2022-10-05 11:17:50,382 [12] INFO DinePartner.Program - Click on Sign up button
+2022-10-05 11:17:52,418 [12] INFO DinePartner.Program - It should Sign up Successfuly
