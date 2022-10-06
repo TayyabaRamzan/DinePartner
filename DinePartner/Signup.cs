@@ -87,6 +87,7 @@ namespace DinePartner
         #region signUP     
         public void signupbuttonisclickable()
         {
+            extent.AttachReporter(report);
             ExtentTest test = extent.CreateTest("FYP_T1_Verify sign up button is clickable and functional");
 
             Program.log.Info("Launch the Website ");
@@ -102,10 +103,14 @@ namespace DinePartner
             submitclick();
             Program.log.Info("Sign up button is clickable and Functional");
             Thread.Sleep(6000);
-            
+            extent.Flush();
+
         }
         public void signupForValid(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {
+
+            extent.AttachReporter(report);
+            ExtentTest test = extent.CreateTest("FYP_T2_Verify sign up With valid Credentials");
             Program.log.Info("FYP_T2_Verify sign up With valid Credentials");
             Program.log.Info("Launch the Website ");
             OpenURL();
@@ -142,11 +147,13 @@ namespace DinePartner
             submitclick();
             Program.log.Info("It should Sign up Successfuly");
             Thread.Sleep(6000);
-
+            extent.Flush();
         }
 
         public void signupwithincorrectEmail(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {
+            extent.AttachReporter(report);
+            ExtentTest test = extent.CreateTest("FYP_T3_Verify sign up With incorrect email");
             Program.log.Info("FYP_T3_Verify sign up With incorrect email");
             Program.log.Info("Launch the Website ");
             OpenURL();
@@ -183,12 +190,14 @@ namespace DinePartner
             submitclick();
             Program.log.Info("It should not Sign up Successfuly");
             Thread.Sleep(6000);
-
+            extent.Flush();
         }
 
         public void signupWithRegisteredUSer(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {
-            Program.log.Info("FYP_T4_Verify sign up With incorrect email");
+            extent.AttachReporter(report);
+            ExtentTest test = extent.CreateTest("FYP_T4_Verify sign up With Registered user");
+            Program.log.Info("FYP_T4_Verify sign up With Registered user");
             Program.log.Info("Launch the Website ");
             OpenURL();
             Program.log.Info("Website should be launched successfully");
@@ -224,11 +233,13 @@ namespace DinePartner
             submitclick();
             Program.log.Info("It should display an error message");
             Thread.Sleep(6000);
-
+            extent.Flush();
         }
         public void signupWithoutConfirmPassword(string Firstname, string Lastname, string Email, string PhoneNo, string City, string pass, string Confirmpassword)
         {
-            Program.log.Info("FYP_T4_Verify sign up With incorrect email");
+            
+            ExtentTest test = extent.CreateTest("FYP_T5_Verify sign up Without Confirm Password ");
+            Program.log.Info("FYP_T5_Verify sign up Without Confirm Password ");
             Program.log.Info("Launch the Website ");
             OpenURL();
             Program.log.Info("Website should be launched successfully");
@@ -264,7 +275,7 @@ namespace DinePartner
             submitclick();
             Program.log.Info("It should display an error message");
             Thread.Sleep(6000);
-
+            
         }
 
         #endregion
